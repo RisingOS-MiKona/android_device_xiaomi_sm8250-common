@@ -81,6 +81,13 @@ xiaomi_kona_rootdir_prebuilt_etc {
 
 // Init configuration files
 prebuilt_etc {
+    name: "init.custom.rc",
+    src: "etc/init.custom.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.qcom.rc",
     src: "etc/init.qcom.rc",
     sub_dir: "init/hw",
@@ -97,13 +104,6 @@ prebuilt_etc {
 prebuilt_etc {
     name: "init.target.rc",
     src: "etc/init.target.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.xiaomi.rc",
-    src: "etc/init.xiaomi.rc",
     sub_dir: "init/hw",
     vendor: true,
 }

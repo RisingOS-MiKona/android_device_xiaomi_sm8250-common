@@ -423,10 +423,10 @@ PRODUCT_PACKAGES += \
     init.qti.dcvs.sh
 
 PRODUCT_PACKAGES += \
+    init.custom.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
     init.target.rc \
-    init.xiaomi.rc \
     ueventd.qcom.rc
 
 # Sensors
